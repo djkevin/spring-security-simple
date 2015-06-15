@@ -1,0 +1,25 @@
+/*
+
+http://codetutr.com/2013/03/24/simple-spring-mvc-web-application-using-gradle/
+Run with gradle jettyRunWar
+
+ */
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: 'idea'
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+   providedCompile 'javax.servlet:servlet-api:2.5'
+   compile 'org.springframework:spring-webmvc:3.2.2.RELEASE'
+   compile 'org.springframework.security:spring-security-core:3.2.3.RELEASE'
+   compile 'org.springframework.security:spring-security-web:3.2.3.RELEASE'
+   compile 'org.springframework.security:spring-security-config:3.2.3.RELEASE'
+   runtime 'javax.servlet:jstl:1.1.2'
+}
+
+/* Change context path (base url). otherwise defaults to name of project */
+//jettyRunWar.contextPath = ''
