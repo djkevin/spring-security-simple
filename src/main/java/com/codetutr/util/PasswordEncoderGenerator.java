@@ -1,11 +1,12 @@
 package com.codetutr.util;
 
-import org.springframework.*
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
 /**
  * Created by dj on 16.06.15.
  */
-public class PasswordEncoderGenetator {
-/*    public static void main(String[] args) {
+public class PasswordEncoderGenerator {
+    public static void main(String[] args) {
 
         int i = 0;
         while (i < 10) {
@@ -17,5 +18,5 @@ public class PasswordEncoderGenetator {
             i++;
         }
 
-    }*/
+    }
 }

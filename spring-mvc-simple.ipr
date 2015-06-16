@@ -362,6 +362,13 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/3.2.2.RELEASE/e304b61946aaef6929c1f96e0c2a01a93f6352a3/spring-webmvc-3.2.2.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="spring-security-crypto-3.2.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/3.2.3.RELEASE/c1758dc01928ca70a59afc9c2033e29ced275baa/spring-security-crypto-3.2.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
   <component name="masterDetails">
     <states>
